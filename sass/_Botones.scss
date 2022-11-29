@@ -1,0 +1,36 @@
+div {
+    button {
+        width: 334px;
+        height: 101px;
+        border-radius: 50px;
+        margin: 1rem;
+        font-size: 2rem;
+        box-shadow: 0 4px, 7px rgba(0,0,0,25);
+    }
+}
+
+.button_one {
+    background-color: #ffff;
+    border: 2px solid #3DB88C;
+    color: black;
+}
+
+.button_two {
+    background-color: #3DB88C;
+    border: 5px solid #ffff;
+    box-shadow: 0 4px, 7px blanchedalmond;
+    color: #ffff;
+}
+
+.button_three {
+    background-color: #212529;
+    border: 2px solid #3DB88C;
+    color: #ffff;
+}
+
+.button_four {
+    background-color: #3DB88C;
+    border: 2px solid black;
+    color: black;
+}
+
