@@ -1,0 +1,237 @@
+body { 
+  font-family: 'Libre Franklin', sans-serif;
+}
+  /* HEADER */
+.background {
+  background-image: url("../../img/people.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  
+  img {
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+   
+  p {
+    color: adjust-color($color: #fff);
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-left: 8px;
+  } 
+}
+  
+.barra {
+  margin-top: -10%;
+  margin-left: 25%;
+}
+    
+.barra1 {
+  padding: 10px 8%;
+  border-color: adjust-color($color: #000000);
+}
+  
+.loupe {
+  margin-left: 57%;
+  margin-top: -50px;
+}
+  
+.contact_btn {
+  margin-left: 74%; 
+  margin-top: -25px;
+}
+  
+.button_four {
+  background-color: #3DB88C;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 15px;
+} 
+  
+.cart_img {
+  margin-left: 85%;
+  margin-top: -5%;
+}
+  
+nav {
+  background-color:#212529; 
+  margin-top: 12px;
+  padding: 10px;
+    
+  a {
+    text-decoration: none;
+    color: adjust-color($color: #fff);
+    margin-left: 3%;
+  }
+}
+  
+.ver_btn {
+  background-color: #3DB88C;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 15px;
+  margin-left: 3%; 
+}
+  
+.home {
+  margin-left: 95%;
+  margin-top: -20%;
+}
+  /* HEADER */
+
+
+  /* MAIN */
+main {
+  margin-top: 5%;
+  
+  h1 {
+    text-align: center;
+    margin-right: 27%;
+  }
+
+  img {
+    margin-left: 1%;
+  }
+}
+
+.red_box {
+  background-color: adjust-color($color: #ee0909);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 60%;
+}
+
+.black_box {
+  background-color: adjust-color($color: #000000);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 63%;
+  margin-top: -18px;
+}
+
+.blue_box {
+  background-color: adjust-color($color: #152FB8);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 66%;
+  margin-top: -22px;
+}
+
+.product {
+  p {
+    margin-left: 29%;
+    span {
+      display: block;
+    }
+  }
+}
+
+.añadir_btn {
+  background-color: #3DB88C;
+  border: 5px solid #ffff;
+  box-shadow: 0 4px, 7px blanchedalmond;
+  color: #ffff;
+  padding: 10px 25px;
+  margin-left: 45%;
+}
+
+.info_producto {
+  margin-left: 32%;
+  margin-top: 15px;
+  a {
+    background-color: #ffff;
+    border: 2px solid #3DB88C;
+    color: black;
+    text-decoration: none;
+    margin-left: 5%;
+    padding: 10px 20px;
+  }
+}
+
+.volver_btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  a {
+    background-color: #3DB88C;
+    border: 5px solid #ffff;
+    box-shadow: 0 4px, 7px blanchedalmond;
+    color: #ffff;
+    padding: 10px 30px;
+    border-radius: 25px;
+  }
+}
+
+.flecha_izq {
+  border-radius: 55%;
+  background-color: adjust-color($color: #c5c2c2);
+  padding: 15px 15px;
+  text-decoration: none;
+  margin-left: 25%;
+  color: #000000;
+}
+
+.flecha_der {
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: adjust-color($color: #c5c2c2);
+  padding: 15px 15px;
+  margin-right: 5%;
+  color: #000000;
+}
+  /* MAIN */
+
+
+  /* FOOTER */
+.footer {
+  background-color: #212529;
+  padding: 2rem;
+}
+  
+.comentarios {
+  background-color: #fff;
+  width: 33rem;
+  margin: 0 0 0 25rem;
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+  
+footer {
+  display: flex;
+}
+  
+.verde {
+  color: #3DB88C;
+}
+  
+.about {
+  display: inline;
+  color: #ffff;
+  text-align: center;
+  text-align: center;
+  
+  div {
+    width: 247px;
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem;
+  }
+}
+  
+.one {
+  display: flex;
+}
+  
+.perfil {
+  margin: 1rem;
+}
+  
+.redes {
+  img {
+    margin: 20px;
+  }
+}
