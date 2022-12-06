@@ -315,15 +315,17 @@ li .home {
 .person {
   background: #FFFFFF;
   border-radius: 30px;
-  width: 750px;
+  width: 800px;
   height: 439px;
-  margin: 20px 50px 20px;
+  margin: 20px 30px 0px;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .perfils {
   color: #fab300;
 }
+
 
 
 
