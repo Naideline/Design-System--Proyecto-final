@@ -1,6 +1,6 @@
 /*Header*/
 .background {
-    background-image: url("img/catalogo/background.png");
+    background-image: url("../../img/header_img/background.png");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -27,7 +27,6 @@
 .barra1 {
     padding: 10px 8%;
     border-color: adjust-color($color: #000000);
-
 }
 
 .loupe {
