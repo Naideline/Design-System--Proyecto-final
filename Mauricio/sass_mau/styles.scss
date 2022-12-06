@@ -54,13 +54,11 @@ body {
 
 .searchTextbox {
   box-sizing: border-box;
-
   position: absolute;
   width: 538px;
   height: 53px;
   left: 594px;
   top: 170px;
-
   background: rgba(253, 253, 253, 0.9);
   border: 5px solid #000000;
 }
@@ -68,15 +66,6 @@ body {
 
 .footer {
   background-color: #212529;
-  padding: 30px;
-}
-
-.comentarios {
-  background-color: #fff;
-  width: 33rem;
-  margin: 0 0 0 25rem;
-  font-size: 10px;
-  font-family: 'Nunito', sans-serif;
 }
 
 footer {
@@ -85,32 +74,4 @@ footer {
 
 .verde {
   color: #3DB88C;
-}
-
-.about {
-  display: inline;
-  color: #ffff;
-  text-align: center;
-  text-align: center;
-
-  div {
-      width: 247px;
-      font-family: 'Nunito', sans-serif;
-      margin: 2rem;
-  }
-
-}
-
-.one {
-  display: flex;
-}
-
-.perfil {
-  margin: 1rem;
-}
-
-.redes {
-  img {
-      margin: 20px;
-  }
 }

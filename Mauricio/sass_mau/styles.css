@@ -309,6 +309,12 @@ li .home {
 .flex-aside {
   display: flex;
   top: 800px;
+  position: absolute
+}
+
+.flex-aside .foot_style {
+  display: flex;
+  top: 470px;
   position: absolute;
 }
 
@@ -324,6 +330,28 @@ li .home {
 
 .perfils {
   color: #fab300;
+}
+
+
+.foot_style{
+  color: black;
+  text-align: center;
+  align-items: center;
+}
+  
+.foot_style p{
+  color: black;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+  align-items: center;
+}
+  
+footer{
+  background-color: #161C28;
+  text-align: center;
+  position: absolute;
+  top: 30px;
 }
 
 
