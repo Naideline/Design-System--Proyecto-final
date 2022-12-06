@@ -1,0 +1,211 @@
+body { 
+  font-family: 'Libre Franklin', sans-serif;
+}
+/* HEADER */
+.background {
+  background-image: url("../../img/people.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+
+  img {
+    margin-top: 2%;
+    margin-left: 4%;
+  }
+ 
+  p {
+    color: adjust-color($color: #fff);
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-left: 8px;
+  } 
+}
+
+.barra {
+  margin-top: -10%;
+  margin-left: 25%;
+}
+  
+.barra1 {
+  padding: 10px 8%;
+  border-color: adjust-color($color: #000000);
+
+}
+
+.loupe {
+  margin-left: 57%;
+  margin-top: -50px;
+}
+
+.contact_btn {
+  margin-left: 74%; 
+  margin-top: -25px;
+}
+
+.button_four {
+  background-color: #3DB88C;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 15px;
+} 
+
+.cart_img {
+  margin-left: 85%;
+  margin-top: -5%;
+}
+
+nav {
+  background-color:#212529; 
+  margin-top: 12px;
+  padding: 10px;
+  
+  a {
+    text-decoration: none;
+    color: adjust-color($color: #fff);
+    margin-left: 3%;
+  }
+}
+
+.ver_btn {
+  background-color: #3DB88C;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 15px;
+  margin-left: 3%; 
+}
+
+.home {
+  margin-left: 95%;
+  margin-top: -20%;
+}
+/* HEADER */
+
+
+/* MAIN */
+main {
+  h1 {
+    text-align: center;
+  }
+
+  img {
+    margin-left: 7%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.flecha_izq {
+  border-radius: 55%;
+  background-color: adjust-color($color: #c5c2c2);
+  padding: 15px 15px;
+}
+
+.laptop_product {
+  font-size: 1rem;
+  
+  h2 {
+    margin-left: 13%;
+  }
+
+  p span {
+    display: block;
+    margin-left: 7%;
+  }
+}
+
+.iphone_product {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: -10%;
+
+  h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  p span {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+.camera_product {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: -11%;
+
+  h4 {
+    text-align: end;
+    font-size: 25px;
+    margin-right: 11%;
+  }
+
+  p span {
+    display: block;
+    text-align: end;
+    font-size: 1rem;
+    margin-right: 8%;
+  }
+}
+
+.flecha_der {
+  border-radius: 50%;
+  background-color: adjust-color($color: #c5c2c2);
+  padding: 15px 15px;
+  margin-left: 95%;
+}
+/* MAIN */
+
+
+/* FOOTER */
+.footer {
+  background-color: #212529;
+  padding: 2rem;
+}
+
+.comentarios {
+  background-color: #fff;
+  width: 33rem;
+  margin: 0 0 0 25rem;
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer {
+  display: flex;
+}
+
+.verde {
+  color: #3DB88C;
+}
+
+.about {
+  display: inline;
+  color: #ffff;
+  text-align: center;
+  text-align: center;
+
+  div {
+      width: 247px;
+      font-family: 'Nunito', sans-serif;
+      margin: 2rem;
+  }
+
+}
+
+.one {
+  display: flex;
+}
+
+.perfil {
+  margin: 1rem;
+}
+
+.redes {
+  img {
+      margin: 20px;
+  }
+}
