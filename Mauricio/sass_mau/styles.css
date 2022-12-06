@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+}
+
+body {
+  background: #F5F5F5;
+  background-color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.header {
+  background-image: url("../img_Mau/Rectangle\ 1.png");
+  height: 278px;
+  width: 1728px;
+}
+
+.searchTextbox {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  width: 538px;
+  height: 53px;
+  left: 594px;
+  top: 170px;
+  background: rgba(253, 253, 253, 0.9);
+  border: 5px solid #000000;
+}
+
+.img_search{
+  position: absolute;
+  width:30px;
+  height: 40px;
+  left: 495px;
+}
+
+.home {
+  position: relative;
+  width:80px;
+  height: 40px;
+  left: 1000px;
+}
+
+.margin-top {
+  margin-top: 100px ;
+}
+.container{
+  margin: 0 auto;
+}
+h2{
+  font-size: 60px;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.flex-bar {
+  display: flex;
+}
+.nav-line {
+  padding-top: 48px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(33, 37, 41, 0.95);
+}
+.nav-line h2 {
+  font-size: 50px;
+  color: #54BD95;
+}
+.nav-ul_menu ul:first-child {
+  margin-right: 178px;
+  gap: 40px;
+}
+.nav-ul_menu ul:last-child {
+  gap: 20px;
+}
+.nav-ul_menu a {
+  color: #A6A6A6;
+}
+li .home {
+  font-size: 18px;
+  color: #000;
+}
+.nav-ul_menu ul a:hover {
+  color: #54BD95;
+}
+.button-view a {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  color: #fff;
+}
+.button-view a:hover {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 2px solid #54BD95;
+  background: none;
+}
+
+.button-contact a {
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  color: #fff;
+  position: absolute;
+  width: 173px;
+  height: 34px;
+  left: 740px;
+  bottom: 5px;
+}
+.button-contact a:hover {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 2px solid #54BD95;
+  background: none;
+}
+
+.img_cart {
+  position: absolute;
+  width: 132px;
+  height: 104px;
+  left: 998px;
+  bottom: -20px;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.button {
+  background-image: url("../img_Mau/Rectangle\ 12.png");
+  height: 58px;
+  width: 258px;
+  /* Titles/button */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.smallbutton {
+  background-image: url("../img_Mau/Rectangle\ 75.png");
+  height: 37px;
+  width: 88px;
+  /* Titles/button */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.button-iniciar a{
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  color: black;
+  position: absolute;
+  width: 230px;
+  height: 37px;
+  left: 560px;
+  font-weight: 700;
+  font-size: 32px;
+  top: 370px;
+}
+
+.button-regis a{
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  color: black;
+  position: absolute;
+  width: 230px;
+  height: 37px;
+  left: 850px;
+  font-weight: 700;
+  font-size: 32px;
+  top: 370px;
+}
+
+.menu-item {
+  list-style: none;
+  margin: 0 0.9375rem;
+}
+
+.menu-item a {
+  color: black;
+
+}
+
+.menu-item a:hover{
+  text-decoration-color: rgb(96, 107, 107);
+  background-color: rgb(21, 214, 243);
+}
+
+.final-div{
+  position: absolute;
+  width: 470px;
+  height: 230px;
+  left: 540px;
+  top: 450px;
+  padding: 15px 50px 24px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #fff;
+  background: rgba(33, 37, 41, 0.95);
+}
+.final-div img{
+  margin-left:  200px;
+}
+
+.final-div input::placeholder {
+  color: #A6A6A6;
+}
+
+.final-div  form {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.final-div input[type="email"], .final-div textarea, .final-div button {
+  border-radius: 10px;
+}
+
+.final-div input[type="email"] {
+  padding: 17px 0 17px 20px;
+  border: none;
+}
+
+.final-div textarea {
+  height: 80px;
+  padding: 20px 0 43px 20px;
+}
+
+.final-div button {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  background: #A49B9B;
+}
+
+.flex-publish {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_women{
+  position: absolute;
+  width: 70px;
+  height: 45px;
+  left: 540px;
+  top: 730px;
+}
+
+.text_img {
+  position: absolute;
+  left: 640px;
+  top: 730px;
+  
+}
+
+.text_img input{
+  width: 420px;
+  height: 45px;
+  padding: 0px 20px;
+  background: rgba(217, 217, 217, 0.78);
+  border: rgba(217, 217, 217, 0.78);
+}
+
+.text_img button{
+  left: 335px;
+  top: 50px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  color: black;
+  width: 123px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  border: #54BD95;
+}
+
+.flex-aside {
+  display: flex;
+  top: 800px;
+  position: absolute;
+}
+
+.person {
+  background: #FFFFFF;
+  border-radius: 30px;
+  width: 750px;
+  height: 439px;
+  margin: 20px 50px 20px;
+}
+
+
+.perfils {
+  color: #fab300;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
