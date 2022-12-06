@@ -1,35 +1,77 @@
 /*Header*/
 .background {
-  background-image: url(../catalogo/home.png);
-  display: flex;
+  background-image: url("/img/catalogo/background.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.background img {
+  margin-top: 2%;
+  margin-left: 4%;
+}
+.background p {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: -10px;
+  margin-left: 8px;
 }
 
 .barra {
-  text-align: center;
+  margin-top: -10%;
+  margin-left: 25%;
+}
+
+.barra1 {
+  padding: 10px 8%;
+  border-color: #000000;
+}
+
+.loupe {
+  margin-left: 57%;
+  margin-top: -50px;
+}
+
+.contact_btn {
+  margin-left: 74%;
+  margin-top: -25px;
 }
 
 .button_four {
   background-color: #3DB88C;
+  border-radius: 10px;
   border: 2px solid black;
-  border-radius: 50px;
   color: black;
+  padding: 5px 15px;
 }
 
-div a {
+.cart_img {
+  margin-left: 85%;
+  margin-top: -5%;
+}
+
+nav {
+  background-color: #212529;
+  margin-top: 12px;
+  padding: 10px;
+}
+nav a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
-  font-family: "Nunito", sans-serif;
-  padding: 15px;
+  margin-left: 3%;
+}
+
+.ver_btn {
+  background-color: #3DB88C;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 15px;
+  margin-left: 3%;
 }
 
 .home {
-  display: flex;
-  background-color: #212529;
-}
-
-.end {
-  margin: 0 0 0 50rem;
+  margin-left: 95%;
+  margin-top: -20%;
 }
 
 /*article_imagenes*/
@@ -54,7 +96,7 @@ h3 {
   font-family: "Libre Franklin", sans-serif;
 }
 
-.Catalogo {
+.catalogo {
   display: flex;
 }
 
@@ -66,7 +108,7 @@ h3 {
   text-align: center;
 }
 
-.Catalog {
+.catalog {
   justify-content: center;
   padding: 5rem;
 }
@@ -77,6 +119,52 @@ div img {
 
 section div {
   margin: 1rem;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #212529;
+  padding: 2rem;
+}
+
+.comentarios {
+  background-color: #fff;
+  width: 33rem;
+  margin: 0 0 0 25rem;
+  font-size: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+footer {
+  display: flex;
+}
+
+.verde {
+  color: #3DB88C;
+}
+
+.about {
+  display: inline;
+  color: white;
+  text-align: center;
+  text-align: center;
+}
+.about div {
+  width: 247px;
+  font-family: "Nunito", sans-serif;
+  margin: 2rem;
+}
+
+.one {
+  display: flex;
+}
+
+.perfil {
+  margin: 1rem;
+}
+
+.redes img {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=stylepag2.css.map */

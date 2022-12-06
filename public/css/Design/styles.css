@@ -162,5 +162,8 @@ div button {
 div img {
   padding: 2rem;
 }
+.background {
+  background-image: url("img/catalogo/background.png");
+}
 
 /*# sourceMappingURL=styles.css.map */
